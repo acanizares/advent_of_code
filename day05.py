@@ -37,8 +37,7 @@ print(f"Remaining units: {len(remaining)}")
 results = {}
 for ord_c in range(ord('a'), ord('z') + 1):
     c = chr(ord_c)
-    regex = f'{c}'
-    polymer_no_c = re.sub(regex, "", polymer, flags=re.IGNORECASE)
+    polymer_no_c = re.sub(c, "", polymer, flags=re.IGNORECASE)
     results[c] = len(react(polymer_no_c))
 
 worst_letter = min(results, key=results.get)
