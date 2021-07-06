@@ -1,3 +1,3 @@
-# advent_of_code
+# Advent of code
 
 Solutions to https://adventofcode.com/2018
