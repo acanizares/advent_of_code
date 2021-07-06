@@ -1,3 +1,3 @@
 # Advent of code
 
-Solutions to https://adventofcode.com/2018
+Solutions to https://adventofcode.com
